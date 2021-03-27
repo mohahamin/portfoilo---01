@@ -51,7 +51,7 @@ body {
 }
 
 .second_container {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .skills {
@@ -128,8 +128,8 @@ body {
     box-sizing: border-box;
     justify-content: center;
     font-family: 'Quicksand', sans-serif;
-    height: 100vh;
     margin-top: 50px;
+    min-height: 100vh;
 }
 
 input[type=text], select, textarea {
@@ -157,6 +157,7 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 10px;
+    min-height: 100vh;
 }
 
 .column {
@@ -193,7 +194,80 @@ footer {
 }
 @media screen and (max-width: 600px) {
     .column, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
+        width: 100%;
+        margin-top: 0;
+    }
+    .main_container p {
+        color: rgb(61, 61, 61);
+        font-weight: bold;
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;    font-size: x-large;
+        width: max-content;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 450px;
+    }
+    .main_container svg {
+        position: relative;
+        top: 62%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+        margin: 0 5px;
+    }
+    .container3 span {
+        float: right;
+        font-size: 40px;
+        font-weight: bold;
+        color: rgb(0, 93, 216);
+        font-family: 'Quicksand', sans-serif;
+        margin: 10px 50px;
+    }
+    .container3 {
+        box-sizing: border-box;
+        justify-content: center;
+        font-family: 'Quicksand', sans-serif;
+        margin-top: 5px;
+        min-height: 100vh;
+        max-width: 500px;
+    }
+    
+    input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+    
+    input[type=submit] {
+        background-color: rgb(0, 93, 216);
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+        background-color: rgb(0, 93, 216);
+    }
+    
+    .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 10px;
+    }
+    
+    .column {
+        width: 85%;
+        padding: 20px;
+    }
+    
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
     }
 }
