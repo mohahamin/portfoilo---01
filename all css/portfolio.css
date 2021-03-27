@@ -223,12 +223,12 @@ footer {
         position: absolute;
         top: 60%;
         left: 50%;
-        transform: translate(-50%, -100%);
+        transform: translate(-50%, -70%);
         display: block;
     }
     .contact_icons {
         position: absolute;
-        transform: translate(-5%, 780%);
+        transform: translate(-2%, 780%);
         display: flex;
         flex-flow: row;
         width: max-content;
