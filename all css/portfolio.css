@@ -228,7 +228,7 @@ footer {
     }
     .contact_icons {
         position: absolute;
-        transform: translate(-10%, 780%);
+        transform: translate(-5%, 780%);
         display: flex;
         flex-flow: row;
         width: max-content;
