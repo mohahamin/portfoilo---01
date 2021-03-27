@@ -42,11 +42,14 @@ body {
     box-shadow: rgb(92, 92, 92);
 }
 
-.main_container svg {
-    position: relative;
-    top: 60%;
-    left: 43%;
-    transform: translate(-50%, -50%);
+.contact_icons {
+    position: absolute;
+    transform: translate(160%, 750%);
+    display: flex;
+    flex-flow: row;
+    width: max-content;
+}
+.contact_icons svg {
     margin: 0 5px;
 }
 
@@ -222,10 +225,15 @@ footer {
         transform: translate(-50%, -50%);
         display: block;
     }
-    .main_container svg {
-        margin: 0 4px;
-        position: relative;
-        transform: translate(-270%, 90%);
+    .contact_icons {
+        position: absolute;
+        transform: translate(10%, 880%);
+        display: flex;
+        flex-flow: row;
+        width: max-content;
+    }
+    .contact_icons svg {
+        margin: 0 5px;
     }
     .container3 span {
         font-size: 30px;
