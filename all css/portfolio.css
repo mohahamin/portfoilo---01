@@ -200,30 +200,41 @@ footer {
     body {
         margin: 0 10px;
     }
+    .main_container img {
+        height: 200px;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        box-shadow: rgb(92, 92, 92);
+        display: block;
+    }
     .main_container p {
         color: rgb(61, 61, 61);
         font-weight: bold;
         text-align: center;
         font-family: 'Quicksand', sans-serif;    font-size: x-large;
-        width: max-content;
+        width: 90%;
         position: absolute;
         top: 60%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 75%;
+        display: block;
     }
     .main_container svg {
         transform: translate(-260%, 160%);
         margin: 0 4px;
+        display: inlie-block;
     }
     .container3 span {
         font-size: 30px;
         font-weight: bold;
         color: rgb(0, 93, 216);
         font-family: 'Quicksand', sans-serif;
-        text-align: center;
-        margin-top: 10px;
-        margin-bottom: 80px;
+        margin: 10px;
+        position: absolute;
+        transform: translate(60%, -150%);
     }
     .container3 {
         box-sizing: border-box;
@@ -232,6 +243,7 @@ footer {
         margin-top: 5px;
         min-height: 100vh;
         max-width: 500px;
+        display: block;
     }
     
     input[type=text], select, textarea {
@@ -249,6 +261,7 @@ footer {
         padding: 12px 20px;
         border: none;
         cursor: pointer;
+        margin-bottom: 5px;
     }
     
     input[type=submit]:hover {
