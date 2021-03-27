@@ -223,9 +223,9 @@ footer {
         display: block;
     }
     .main_container svg {
-        transform: translate(-260%, 160%);
         margin: 0 4px;
-        display: inlie-block;
+        position: relative;
+        transform: translate(-270%, 90%);
     }
     .container3 span {
         font-size: 30px;
@@ -234,7 +234,7 @@ footer {
         font-family: 'Quicksand', sans-serif;
         margin: 10px;
         position: absolute;
-        transform: translate(60%, -150%);
+        transform: translate(50%, -150%);
     }
     .container3 {
         box-sizing: border-box;
