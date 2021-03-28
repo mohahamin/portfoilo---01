@@ -210,9 +210,9 @@ footer {
         margin-top: -20px;
     }
     .contact_icons {
+        justify-content: center;
         position: relative;
-        top: 70%;
-        left: -50%;
+        top: 80%;
     }
     .container3 span {
         font-size: 30px;
