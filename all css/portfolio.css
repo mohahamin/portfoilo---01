@@ -9,6 +9,9 @@ body {
 
 .main_container {
     position:relative;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
     height: 100vh;
     background-color: rgb(255, 255, 255);
 }
@@ -20,9 +23,7 @@ body {
     font-family: 'Quicksand', sans-serif;    font-size: x-large;
     width: max-content;
     position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 50%;
 }
 
 .main_container p span {
@@ -34,20 +35,18 @@ body {
 
 .main_container img {
     height: 200px;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     border-radius: 50%;
-    box-shadow: rgb(92, 92, 92);
+    position: absolute;
+    top: 15%;
 }
 
 .contact_icons {
     position: absolute;
-    transform: translate(160%, 750%);
+    top: 65%;
     display: flex;
     flex-flow: row;
-    width: max-content;
+    justify-content: center;
+    margin-right: 60px;
 }
 .contact_icons svg {
     margin: 0 5px;
@@ -195,7 +194,7 @@ footer {
     color: white;
     font-family: 'Quicksand', sans-serif;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .column, input[type=submit] {
         width: 100%;
         margin-top: 0;
@@ -203,47 +202,18 @@ footer {
     body {
         margin: 0 10px;
     }
-    .main_container img {
-        height: 200px;
-        position: absolute;
-        top: 30%;
-        left: 50%;
-        transform: translate(-50%, -70%);
-        border-radius: 50%;
-        box-shadow: rgb(92, 92, 92);
-        display: block;
-    }
     .main_container p {
-        color: rgb(61, 61, 61);
-        font-weight: bold;
-        text-align: center;
-        font-family: 'Quicksand', sans-serif;    
-        font-size: x-large;
         width: 90%;
-        position: absolute;
-        top: 60%;
-        left: 50%;
-        transform: translate(-50%, -100%);
-        display: block;
     }
     .contact_icons {
-        position: absolute;
-        transform: translate(7%, 780%);
-        display: flex;
-        flex-flow: row;
-        width: max-content;
-    }
-    .contact_icons svg {
-        margin: 0 5px;
+        margin-top: 35px;
     }
     .container3 span {
         font-size: 30px;
         font-weight: bold;
         color: rgb(0, 93, 216);
         font-family: 'Quicksand', sans-serif;
-        margin: 10px;
-        position: absolute;
-        transform: translate(50%, -150%);
+        margin: 0 0 50px;
     }
     .container3 {
         box-sizing: border-box;
@@ -252,7 +222,8 @@ footer {
         margin-top: 5px;
         min-height: 100vh;
         max-width: 500px;
-        display: block;
+        display: flex;
+        flex-flow: column;
     }
     
     input[type=text], select, textarea {
