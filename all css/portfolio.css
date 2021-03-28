@@ -46,7 +46,7 @@ body {
     display: flex;
     flex-flow: row;
     justify-content: center;
-    margin-right: 60px;
+    margin: 0 100px 0 40px;
 }
 .contact_icons svg {
     margin: 0 5px;
@@ -204,9 +204,13 @@ footer {
     }
     .main_container p {
         width: 90%;
+        margin-top: -20px;
+    }
+    .main_container img {
+        margin-top: -20px;
     }
     .contact_icons {
-        margin-top: 35px;
+        margin: 30px 100px 0 0;
     }
     .container3 span {
         font-size: 30px;
