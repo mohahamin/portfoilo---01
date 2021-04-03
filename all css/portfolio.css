@@ -46,7 +46,7 @@ body {
     display: flex;
     flex-flow: row;
     justify-content: center;
-    margin-right: 60px;
+    margin: 0 100px 0 40px;
 }
 .contact_icons svg {
     margin: 0 5px;
@@ -194,7 +194,43 @@ footer {
     color: white;
     font-family: 'Quicksand', sans-serif;
 }
-@media screen and (max-width: 600px) {
+.ramadan {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    background-image: url(/images/yasmine-arfaoui-R6rh5ttDO-4-unsplash.jpg);
+    background-position: 0px -500px;
+    background-size: cover;
+}
+
+.ramadan-countdown {
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 25%;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    text-shadow: .5px .5px 7px #ccc;
+}
+
+.ramadan-countdown h1 {
+    font-weight: normal;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+}
+
+.ramadan-countdown li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+.ramadan-countdown li span {
+    display: block;
+    font-size: 4.5rem;
+}
+@media screen and (max-width: 500px) {
     .column, input[type=submit] {
         width: 100%;
         margin-top: 0;
@@ -204,9 +240,15 @@ footer {
     }
     .main_container p {
         width: 90%;
+        margin-top: -20px;
+    }
+    .main_container img {
+        margin-top: -20px;
     }
     .contact_icons {
-        margin-top: 35px;
+        justify-content: center;
+        position: relative;
+        top: 80%;
     }
     .container3 span {
         font-size: 30px;
@@ -263,5 +305,23 @@ footer {
         content: "";
         display: table;
         clear: both;
+    }
+    .ramadan {
+        height: 25vh;
+        background-image: url(/images/yasmine-arfaoui-R6rh5ttDO-4-unsplash.jpg);
+        background-position: 0px -200px;
+        background-size: cover;
+    }
+    .ramadan-countdown h1 {
+    font-size: 1.5rem;
+    }
+        
+    .ramadan-countdown li {
+    font-size: 10px;
+    padding: .75rem;
+    }
+        
+    .ramadan-countdown li span {
+    font-size: 50px;
     }
 }
