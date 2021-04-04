@@ -233,10 +233,10 @@ footer {
 @media screen and (max-width: 600px) {
     .column, input[type=submit] {
         width: 100%;
-        margin-top: 0;
+        margin: 0 10px;
     }
     body {
-        margin: 0 10px;
+        margin: 0;
     }
     .main_container p {
         width: 90%;
@@ -255,7 +255,7 @@ footer {
         font-weight: bold;
         color: rgb(0, 93, 216);
         font-family: 'Quicksand', sans-serif;
-        margin: 0 0 50px;
+        margin: 0 0 50px 20px;
     }
     .container3 {
         box-sizing: border-box;
@@ -297,8 +297,8 @@ footer {
     }
     
     .column {
-        width: 100%;
-        padding: 1px;
+        width: 90%;
+        padding: 10px;
     }
     
     .row:after {
@@ -308,7 +308,6 @@ footer {
     }
     .ramadan {
         height: 25vh;
-        background-image: url(/images/yasmine-arfaoui-R6rh5ttDO-4-unsplash.jpg);
         background-position: 0px -200px;
         background-size: cover;
     }
