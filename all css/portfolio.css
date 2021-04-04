@@ -194,7 +194,6 @@ footer {
     color: white;
     font-family: 'Quicksand', sans-serif;
 }
-
 .ramadan {
     height: 50vh;
     display: flex;
@@ -231,10 +230,7 @@ footer {
     display: block;
     font-size: 4.5rem;
 }
-@media screen and (max-width: 500px) {
-=======
 @media screen and (max-width: 600px) {
->>>>>>> 0bc21d0d5a05858beaad61f01f64e2c07822db21
     .column, input[type=submit] {
         width: 100%;
         margin-top: 0;
@@ -244,26 +240,15 @@ footer {
     }
     .main_container p {
         width: 90%;
-<<<<<<< HEAD
-        margin-top: -20px;
-    }
-    .main_container img {
-        margin-top: -20px;
-=======
         margin-top: -40px;
     }
     .main_container img {
         margin-top: -40px;
->>>>>>> 0bc21d0d5a05858beaad61f01f64e2c07822db21
     }
     .contact_icons {
         justify-content: center;
         position: relative;
-<<<<<<< HEAD
-        top: 80%;
-=======
         top: 75%;
->>>>>>> 0bc21d0d5a05858beaad61f01f64e2c07822db21
     }
     .container3 span {
         font-size: 30px;
