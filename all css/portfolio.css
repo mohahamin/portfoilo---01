@@ -198,7 +198,7 @@ footer {
     height: 50vh;
     display: flex;
     justify-content: center;
-    background-image: url(images/yasmine-arfaoui-R6rh5ttDO-4-unsplash.jpg);
+    background-image: url(/images/yasmine-arfaoui-R6rh5ttDO-4-unsplash.jpg);
     background-position: 0px -500px;
     background-size: cover;
 }
@@ -308,7 +308,7 @@ footer {
     }
     .ramadan {
         height: 25vh;
-        background-image: url(images/yasmine-arfaoui-R6rh5ttDO-4-unsplash.jpg);
+        background-image: url(/images/yasmine-arfaoui-R6rh5ttDO-4-unsplash.jpg);
         background-position: 0px -200px;
         background-size: cover;
     }
