@@ -284,6 +284,7 @@ footer {
         border: none;
         cursor: pointer;
         margin-bottom: 5px;
+        margin-left: 0px;
     }
     
     input[type=submit]:hover {
@@ -308,8 +309,9 @@ footer {
     }
     .ramadan {
         height: 25vh;
-        background-position: 0px -200px;
         background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
     .ramadan-countdown h1 {
     font-size: 1.5rem;
